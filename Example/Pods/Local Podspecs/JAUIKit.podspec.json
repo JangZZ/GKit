@@ -1,22 +1,22 @@
 {
   "name": "JAUIKit",
-  "version": "0.1.0",
-  "summary": "A short description of JAUIKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/giangnt078@gmail.com/JAUIKit",
+  "version": "1.0.3",
+  "summary": "JAUIKit many commons to development ios app",
+  "description": "my journey in iOS development",
+  "homepage": "https://github.com/JangZZ/JAUIKit.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "giangnt078@gmail.com": "giangnt38@techcombank.com.vn"
+    "JangZZ": "giangnt078@gmail.com"
   },
   "source": {
-    "git": "https://github.com/giangnt078@gmail.com/JAUIKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/JangZZ/JAUIKit.git",
+    "tag": "1.0.3"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
-  "source_files": "JAUIKit/Classes/**/*"
+  "source_files": "JAUIKit/**/*.{swift}"
 }

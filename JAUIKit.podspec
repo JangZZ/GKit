@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JAUIKit'
-  s.version          = '1.0.3'
-  s.summary          = 'ZZKit many commons to development ios app'
+  s.version          = '1.0.4'
+  s.summary          = 'JAUIKit many commons to development ios app'
 
   s.description      = 'my journey in iOS development'
   s.homepage         = 'https://github.com/JangZZ/JAUIKit.git'
