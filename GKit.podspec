@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = "JangZZ"
-  s.homepage         = 'https://github.com/giangnt078@gmail.com/GKit'
+  s.homepage         = 'https://github.com/JangZZ/GKit.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JangZZ' => 'giangnt078@gmail.com' }
-  s.source           = { :git => 'https://github.com/giangnt078@gmail.com/GKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/JangZZ/GKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '12.0'
 
