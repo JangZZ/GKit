@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JAUIKit'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'ZZKit many commons to development ios app'
 
   s.description      = 'my journey in iOS development'
