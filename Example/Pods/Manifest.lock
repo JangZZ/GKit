@@ -1,0 +1,27 @@
+PODS:
+  - GKit (0.1.0)
+  - Nimble (10.0.0)
+  - Quick (2.2.1)
+
+DEPENDENCIES:
+  - GKit (from `../`)
+  - Nimble (~> 10.0.0)
+  - Quick (~> 2.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  GKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GKit: 8ad16df71a976de8b9b37d7d06ce48374b9e7301
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+
+PODFILE CHECKSUM: c94141047e797cd821467c43636ad657ce6144b1
+
+COCOAPODS: 1.11.3

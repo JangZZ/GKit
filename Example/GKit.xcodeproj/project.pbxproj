@@ -43,9 +43,9 @@
 		7857018D39F622C03B4317FC /* Pods-GKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-GKit_Tests/Pods-GKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A7FB17DAA22DE306A33B2F54 /* Pods_GKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADCD5A18C4F21B04063A57CD /* Pods_GKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3043BB1E40D44CB99C32EF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E111BB05BC5082769663536D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E58A6EB7E96A2D777917685D /* GKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GKit.podspec; path = ../GKit.podspec; sourceTree = "<group>"; };
+		C3043BB1E40D44CB99C32EF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E111BB05BC5082769663536D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E58A6EB7E96A2D777917685D /* GKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GKit.podspec; path = ../GKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F2AFD79A7C8AC1ABAF0CDEBB /* Pods-GKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GKit_Tests/Pods-GKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,6 @@
 				F2AFD79A7C8AC1ABAF0CDEBB /* Pods-GKit_Tests.debug.xcconfig */,
 				7857018D39F622C03B4317FC /* Pods-GKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

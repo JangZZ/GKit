@@ -22,11 +22,9 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/giangnt078@gmail.com/GKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'giangnt078@gmail.com' => 'giangnt38@techcombank.com.vn' }
+  s.author           = { 'JangZZ' => 'giangnt078@gmail.com' }
   s.source           = { :git => 'https://github.com/giangnt078@gmail.com/GKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
