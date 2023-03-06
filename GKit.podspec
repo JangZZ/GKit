@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GKit'
-  s.version          = '0.0.1'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of GKit.'
 
 # This description is used to generate tags and improve search results.
@@ -17,15 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "JangZZ"
+  #s.description      = "JangZZ"
   s.homepage         = 'https://github.com/JangZZ/GKit.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JangZZ' => 'giangnt078@gmail.com' }
   s.source           = { :git => 'https://github.com/JangZZ/GKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '12.0'
-
-  s.source_files = 'GKit/Sources/**/*'
+  s.source_files = 'GKit/**/*.{swift}'
   
   # s.resource_bundles = {
   #   'GKit' => ['GKit/Assets/*.png']
