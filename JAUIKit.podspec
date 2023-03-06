@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JAUIKit'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'JAUIKit many commons to development ios app'
 
   s.description      = 'my journey in iOS development'
@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/JangZZ/JAUIKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '12.0'
   s.source_files = 'JAUIKit/**/*.{swift}'
+  s.dependency 'SnapKit', '~> 5.6.0'
 end

@@ -13,19 +13,25 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
+        demoModifyElements()
+        testUIViewExt()
+    }
+
+    private func demoModifyElements() {
         var arrays = ["1", "2", "3"]
-        
         arrays.modifyElement(atIndex: 0, { $0 = "😍" })
         
+        let safeItem = arrays[safe: 4]
         print(arrays)
+        print(safeItem)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    private func testUIViewExt() {
+        let subView = UIView()
+        subView.backgroundColor = .gray
+        
+        self.view.addFilledSubview(subView, constant: 100)
     }
-
 }
 
