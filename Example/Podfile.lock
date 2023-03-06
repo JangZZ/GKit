@@ -1,5 +1,5 @@
 PODS:
-  - JAUIKit (1.0.3)
+  - JAUIKit (1.0.4)
 
 DEPENDENCIES:
   - JAUIKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JAUIKit: 28bac1c41f002093fb9025940768443dc4fd7111
+  JAUIKit: cc27dd7f06d076218b7e0ff60e4bff2bbd74f70b
 
 PODFILE CHECKSUM: d7088e4df7ea6b8d8537b1aeb1246ff785aefbc0
 

@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14195C5073B6452D131A9DD5788DC480 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B31C6C3B8795192EBC478466175206B /* ReplaceMe.swift */; };
 		2D685C0EDDB73D705F44320C78EF519D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		31B93ED689135F81793BA25EF3F279C1 /* Pods-JAUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A532E0C7853B02B4B37A48D028A06F /* Pods-JAUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		327A8D68310E282741C49980ED8CE0EB /* JAUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8716EE1C0B354AFC310DF0EEE5D889D7 /* JAUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		327A8D68310E282741C49980ED8CE0EB /* JAUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDDCE422689249828AE534C3710BAD15 /* JAUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E78CC13D46A30D7B5B9EF05ABDD882A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9905C6DD86EE42A4F5A34BBFFE17F9AB /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C852EB4883144BF3C2F7EC2A8AA441 /* Array+Extensions.swift */; };
 		9DD77A1FB437EADF080AE44F68A98B8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9E035FF052B5010C351CEB033B83B6BF /* Pods-JAUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C504515839008AC8DD03863260902 /* Pods-JAUIKit_Example-dummy.m */; };
-		ADBB9AB789DD53575F04542B9BC45C79 /* JAUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4B5034F094759021F3B80354B87E92 /* JAUIKit-dummy.m */; };
 		AFC70C76C68241F03F6B25CB17F523C7 /* Pods-JAUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A195CB22B52FECE084E83CE96D77E9B /* Pods-JAUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA3AFFE970FF173367BE3FE6690DC824 /* JAUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 304A94C8B5985889F79BCC8468FB640A /* JAUIKit-dummy.m */; };
 		CC2AE4780989A05B1CDAA022322DBBA7 /* Pods-JAUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F842172FE19E9C044A3D0002C4C386 /* Pods-JAUIKit_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -39,37 +39,37 @@
 /* Begin PBXFileReference section */
 		02F81882B2F54AE55E1DD46CB5367259 /* Pods-JAUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JAUIKit_Tests.modulemap"; sourceTree = "<group>"; };
 		0983149EDD85E87814654AEEF6BFDFBC /* Pods-JAUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		12B3443D88CC1487A690CBCE9FE4F47C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1314631EC21EDB1573C22F9B54F5FA90 /* JAUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JAUIKit.release.xcconfig; sourceTree = "<group>"; };
 		1A528E3D0609C3A5728BD5E5923B870A /* Pods-JAUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JAUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1B31C6C3B8795192EBC478466175206B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JAUIKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1F4C504515839008AC8DD03863260902 /* Pods-JAUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JAUIKit_Example-dummy.m"; sourceTree = "<group>"; };
+		29D6654804A9852803C14CD27BE969B9 /* JAUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JAUIKit-prefix.pch"; sourceTree = "<group>"; };
+		2D6B56338B12BFB4FC5ADFE841B412A7 /* JAUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JAUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3040A73335844C6E28D4E9CDC7344D6D /* JAUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JAUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		304A94C8B5985889F79BCC8468FB640A /* JAUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JAUIKit-dummy.m"; sourceTree = "<group>"; };
 		51F842172FE19E9C044A3D0002C4C386 /* Pods-JAUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JAUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		551AE7DED4524ED5638AF2C9D950358F /* Pods-JAUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAUIKit_Example-Info.plist"; sourceTree = "<group>"; };
+		57C852EB4883144BF3C2F7EC2A8AA441 /* Array+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extensions.swift"; path = "JAUIKit/Sources/Array+Extensions.swift"; sourceTree = "<group>"; };
 		5A195CB22B52FECE084E83CE96D77E9B /* Pods-JAUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JAUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		5F118F059B07246B4C0065718410A991 /* JAUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JAUIKit-Info.plist"; sourceTree = "<group>"; };
-		5FA2DE8FAB088FE0DCBC2DC67DA655BE /* JAUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JAUIKit-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		740EE00BADDD68773352F63B2F0623B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7690B147C9CBAFCCAE8500691DED8192 /* Pods-JAUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JAUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7D2B0FA831C478648C01664AFEDE2637 /* JAUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JAUIKit.debug.xcconfig; sourceTree = "<group>"; };
 		83A532E0C7853B02B4B37A48D028A06F /* Pods-JAUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JAUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8716EE1C0B354AFC310DF0EEE5D889D7 /* JAUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JAUIKit-umbrella.h"; sourceTree = "<group>"; };
-		9A4B5034F094759021F3B80354B87E92 /* JAUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JAUIKit-dummy.m"; sourceTree = "<group>"; };
 		9B42029A6791BF1E9D808BB2C9879AE0 /* Pods-JAUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0784CCD7AC07CF230F66087B79FF14 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A5CFFAB399984DA2A6807476C9B9ED2E /* Pods-JAUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A7F6F5760740BACA9A44E0F339ACEBFC /* Pods-JAUIKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JAUIKit_Example"; path = Pods_JAUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A952205F1CFFB5380031726D5F79EDFD /* JAUIKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JAUIKit; path = JAUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B005C269F6393B4ED49664A39A18A612 /* Pods-JAUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JAUIKit_Example.modulemap"; sourceTree = "<group>"; };
-		B01E6A1F83F1E9D54BE65D76AE712B95 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B5ED3CAD24D004BCD0348798937EAA9F /* JAUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JAUIKit.modulemap; sourceTree = "<group>"; };
 		C072DB2ED99D809CF69474060ED71D43 /* Pods-JAUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CA57ACCE2CF06D2CBEF0CFCE4AFDB458 /* Pods-JAUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D52FBB38DB032C3DF97204A34AFFD709 /* Pods-JAUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D70540A5B098720374723DC15B8670D4 /* Pods-JAUIKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JAUIKit_Tests"; path = Pods_JAUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD6C5B05E4A6AB00002EE7A5651CEEE9 /* JAUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JAUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DCC1C9E161FDFA8F4841B756FA00D6F7 /* JAUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JAUIKit-Info.plist"; sourceTree = "<group>"; };
 		DE37DCBD2A920FD614C226F95B693923 /* Pods-JAUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E6C6B682A30EB7AEAC1BB82E57D921B3 /* JAUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JAUIKit.modulemap; sourceTree = "<group>"; };
+		F441252A36E408D183056F4F3264A8DC /* JAUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JAUIKit.release.xcconfig; sourceTree = "<group>"; };
 		F91C02B72FF996130987C30BBAEA5FD5 /* Pods-JAUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		FDDCE422689249828AE534C3710BAD15 /* JAUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JAUIKit-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 		08A5DBF384D8F87878E3E01078B2DC37 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				43E63211903613ED61503ADC01E5CCBC /* JAUIKit */,
+				140BDD33C614612F969DC3A863590D9B /* JAUIKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -124,30 +124,25 @@
 			path = "Target Support Files/Pods-JAUIKit_Tests";
 			sourceTree = "<group>";
 		};
-		365A179D11A4779885A9E31628A041B2 /* Support Files */ = {
+		140BDD33C614612F969DC3A863590D9B /* JAUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				E6C6B682A30EB7AEAC1BB82E57D921B3 /* JAUIKit.modulemap */,
-				9A4B5034F094759021F3B80354B87E92 /* JAUIKit-dummy.m */,
-				5F118F059B07246B4C0065718410A991 /* JAUIKit-Info.plist */,
-				5FA2DE8FAB088FE0DCBC2DC67DA655BE /* JAUIKit-prefix.pch */,
-				8716EE1C0B354AFC310DF0EEE5D889D7 /* JAUIKit-umbrella.h */,
-				7D2B0FA831C478648C01664AFEDE2637 /* JAUIKit.debug.xcconfig */,
-				1314631EC21EDB1573C22F9B54F5FA90 /* JAUIKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JAUIKit";
-			sourceTree = "<group>";
-		};
-		43E63211903613ED61503ADC01E5CCBC /* JAUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				1B31C6C3B8795192EBC478466175206B /* ReplaceMe.swift */,
-				81CF65EA568F35C0A3D1FEC1BA731A0B /* Pod */,
-				365A179D11A4779885A9E31628A041B2 /* Support Files */,
+				57C852EB4883144BF3C2F7EC2A8AA441 /* Array+Extensions.swift */,
+				3AD9A38984229F37E811A4F92D1777DA /* Pod */,
+				8FD8BCE3DCAB7A0021BCC5E133C93F1B /* Support Files */,
 			);
 			name = JAUIKit;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		3AD9A38984229F37E811A4F92D1777DA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2D6B56338B12BFB4FC5ADFE841B412A7 /* JAUIKit.podspec */,
+				740EE00BADDD68773352F63B2F0623B5 /* LICENSE */,
+				9F0784CCD7AC07CF230F66087B79FF14 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		4824F91A4BE0380E4301E3F7A7E28F4C /* Targets Support Files */ = {
@@ -167,14 +162,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		81CF65EA568F35C0A3D1FEC1BA731A0B /* Pod */ = {
+		8FD8BCE3DCAB7A0021BCC5E133C93F1B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DD6C5B05E4A6AB00002EE7A5651CEEE9 /* JAUIKit.podspec */,
-				B01E6A1F83F1E9D54BE65D76AE712B95 /* LICENSE */,
-				12B3443D88CC1487A690CBCE9FE4F47C /* README.md */,
+				B5ED3CAD24D004BCD0348798937EAA9F /* JAUIKit.modulemap */,
+				304A94C8B5985889F79BCC8468FB640A /* JAUIKit-dummy.m */,
+				DCC1C9E161FDFA8F4841B756FA00D6F7 /* JAUIKit-Info.plist */,
+				29D6654804A9852803C14CD27BE969B9 /* JAUIKit-prefix.pch */,
+				FDDCE422689249828AE534C3710BAD15 /* JAUIKit-umbrella.h */,
+				3040A73335844C6E28D4E9CDC7344D6D /* JAUIKit.debug.xcconfig */,
+				F441252A36E408D183056F4F3264A8DC /* JAUIKit.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JAUIKit";
 			sourceTree = "<group>";
 		};
 		AE6370905B3D2B613730E577187569A3 /* Products */ = {
@@ -258,7 +258,7 @@
 			buildConfigurationList = D27C5881070B4C70039B50DCF1314CF6 /* Build configuration list for PBXNativeTarget "JAUIKit" */;
 			buildPhases = (
 				F9072F376DB78AF9F5068ADCAB346861 /* Headers */,
-				E03956975887B04015977F8D4DE3EE94 /* Sources */,
+				20E775BAD1C012EA0EE1111FDA3F6C50 /* Sources */,
 				80FFE47BFB7E9CF2B1CC5B7997919C0B /* Frameworks */,
 				C63DE2362410882B7236C4EB3BF86606 /* Resources */,
 			);
@@ -363,6 +363,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		20E775BAD1C012EA0EE1111FDA3F6C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9905C6DD86EE42A4F5A34BBFFE17F9AB /* Array+Extensions.swift in Sources */,
+				BA3AFFE970FF173367BE3FE6690DC824 /* JAUIKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C6E2B37CBDCA48EBBA54A4E3D441742 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,15 +385,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC2AE4780989A05B1CDAA022322DBBA7 /* Pods-JAUIKit_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E03956975887B04015977F8D4DE3EE94 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ADBB9AB789DD53575F04542B9BC45C79 /* JAUIKit-dummy.m in Sources */,
-				14195C5073B6452D131A9DD5788DC480 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,7 +474,7 @@
 		};
 		4F3AB677E43CFF0827F001BF08B0DB2E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D2B0FA831C478648C01664AFEDE2637 /* JAUIKit.debug.xcconfig */;
+			baseConfigurationReference = 3040A73335844C6E28D4E9CDC7344D6D /* JAUIKit.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -671,7 +671,7 @@
 		};
 		95B3974AB8644B813521DDAFF7AD39D5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1314631EC21EDB1573C22F9B54F5FA90 /* JAUIKit.release.xcconfig */;
+			baseConfigurationReference = F441252A36E408D183056F4F3264A8DC /* JAUIKit.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;

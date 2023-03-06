@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import JAUIKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        var arrays = ["1", "2", "3"]
+        
+        arrays.modifyElement(atIndex: 0, { $0 = "😍" })
+        
+        print(arrays)
     }
 
     override func didReceiveMemoryWarning() {
