@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14195C5073B6452D131A9DD5788DC480 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B31C6C3B8795192EBC478466175206B /* ReplaceMe.swift */; };
+		2D685C0EDDB73D705F44320C78EF519D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		31B93ED689135F81793BA25EF3F279C1 /* Pods-JAUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A532E0C7853B02B4B37A48D028A06F /* Pods-JAUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		327A8D68310E282741C49980ED8CE0EB /* JAUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8716EE1C0B354AFC310DF0EEE5D889D7 /* JAUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E78CC13D46A30D7B5B9EF05ABDD882A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9DD77A1FB437EADF080AE44F68A98B8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9E035FF052B5010C351CEB033B83B6BF /* Pods-JAUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C504515839008AC8DD03863260902 /* Pods-JAUIKit_Example-dummy.m */; };
+		ADBB9AB789DD53575F04542B9BC45C79 /* JAUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4B5034F094759021F3B80354B87E92 /* JAUIKit-dummy.m */; };
+		AFC70C76C68241F03F6B25CB17F523C7 /* Pods-JAUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A195CB22B52FECE084E83CE96D77E9B /* Pods-JAUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC2AE4780989A05B1CDAA022322DBBA7 /* Pods-JAUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F842172FE19E9C044A3D0002C4C386 /* Pods-JAUIKit_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0455E9616F72D84B92CBBC7D20F7D4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32CC7DCAB8C9CB19FCD74CF8C721ED66;
+			remoteInfo = "Pods-JAUIKit_Example";
+		};
+		6CCA4C3FFBC84A63C2FAC72817B06B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11817013961FA20343E732D7740F870D;
+			remoteInfo = JAUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F81882B2F54AE55E1DD46CB5367259 /* Pods-JAUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JAUIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		0983149EDD85E87814654AEEF6BFDFBC /* Pods-JAUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		12B3443D88CC1487A690CBCE9FE4F47C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1314631EC21EDB1573C22F9B54F5FA90 /* JAUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JAUIKit.release.xcconfig; sourceTree = "<group>"; };
+		1A528E3D0609C3A5728BD5E5923B870A /* Pods-JAUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JAUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B31C6C3B8795192EBC478466175206B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JAUIKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		1F4C504515839008AC8DD03863260902 /* Pods-JAUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JAUIKit_Example-dummy.m"; sourceTree = "<group>"; };
+		51F842172FE19E9C044A3D0002C4C386 /* Pods-JAUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JAUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		551AE7DED4524ED5638AF2C9D950358F /* Pods-JAUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAUIKit_Example-Info.plist"; sourceTree = "<group>"; };
+		5A195CB22B52FECE084E83CE96D77E9B /* Pods-JAUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JAUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		5F118F059B07246B4C0065718410A991 /* JAUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JAUIKit-Info.plist"; sourceTree = "<group>"; };
+		5FA2DE8FAB088FE0DCBC2DC67DA655BE /* JAUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JAUIKit-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7690B147C9CBAFCCAE8500691DED8192 /* Pods-JAUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JAUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D2B0FA831C478648C01664AFEDE2637 /* JAUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JAUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		83A532E0C7853B02B4B37A48D028A06F /* Pods-JAUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JAUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8716EE1C0B354AFC310DF0EEE5D889D7 /* JAUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JAUIKit-umbrella.h"; sourceTree = "<group>"; };
+		9A4B5034F094759021F3B80354B87E92 /* JAUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JAUIKit-dummy.m"; sourceTree = "<group>"; };
+		9B42029A6791BF1E9D808BB2C9879AE0 /* Pods-JAUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5CFFAB399984DA2A6807476C9B9ED2E /* Pods-JAUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A7F6F5760740BACA9A44E0F339ACEBFC /* Pods-JAUIKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JAUIKit_Example"; path = Pods_JAUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A952205F1CFFB5380031726D5F79EDFD /* JAUIKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JAUIKit; path = JAUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B005C269F6393B4ED49664A39A18A612 /* Pods-JAUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JAUIKit_Example.modulemap"; sourceTree = "<group>"; };
+		B01E6A1F83F1E9D54BE65D76AE712B95 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C072DB2ED99D809CF69474060ED71D43 /* Pods-JAUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA57ACCE2CF06D2CBEF0CFCE4AFDB458 /* Pods-JAUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D52FBB38DB032C3DF97204A34AFFD709 /* Pods-JAUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D70540A5B098720374723DC15B8670D4 /* Pods-JAUIKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JAUIKit_Tests"; path = Pods_JAUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6C5B05E4A6AB00002EE7A5651CEEE9 /* JAUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JAUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DE37DCBD2A920FD614C226F95B693923 /* Pods-JAUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6C6B682A30EB7AEAC1BB82E57D921B3 /* JAUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JAUIKit.modulemap; sourceTree = "<group>"; };
+		F91C02B72FF996130987C30BBAEA5FD5 /* Pods-JAUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCBCFA88FAB7004A921F48C3EA3C4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D685C0EDDB73D705F44320C78EF519D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FFE47BFB7E9CF2B1CC5B7997919C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E78CC13D46A30D7B5B9EF05ABDD882A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D892096ECD30D6CC685DBF7B69AD23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD77A1FB437EADF080AE44F68A98B8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A5DBF384D8F87878E3E01078B2DC37 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43E63211903613ED61503ADC01E5CCBC /* JAUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0E426EEE34EA72032074AB06B98F3D8E /* Pods-JAUIKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				02F81882B2F54AE55E1DD46CB5367259 /* Pods-JAUIKit_Tests.modulemap */,
+				7690B147C9CBAFCCAE8500691DED8192 /* Pods-JAUIKit_Tests-acknowledgements.markdown */,
+				9B42029A6791BF1E9D808BB2C9879AE0 /* Pods-JAUIKit_Tests-acknowledgements.plist */,
+				51F842172FE19E9C044A3D0002C4C386 /* Pods-JAUIKit_Tests-dummy.m */,
+				F91C02B72FF996130987C30BBAEA5FD5 /* Pods-JAUIKit_Tests-Info.plist */,
+				83A532E0C7853B02B4B37A48D028A06F /* Pods-JAUIKit_Tests-umbrella.h */,
+				DE37DCBD2A920FD614C226F95B693923 /* Pods-JAUIKit_Tests.debug.xcconfig */,
+				CA57ACCE2CF06D2CBEF0CFCE4AFDB458 /* Pods-JAUIKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-JAUIKit_Tests";
+			path = "Target Support Files/Pods-JAUIKit_Tests";
+			sourceTree = "<group>";
+		};
+		365A179D11A4779885A9E31628A041B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6C6B682A30EB7AEAC1BB82E57D921B3 /* JAUIKit.modulemap */,
+				9A4B5034F094759021F3B80354B87E92 /* JAUIKit-dummy.m */,
+				5F118F059B07246B4C0065718410A991 /* JAUIKit-Info.plist */,
+				5FA2DE8FAB088FE0DCBC2DC67DA655BE /* JAUIKit-prefix.pch */,
+				8716EE1C0B354AFC310DF0EEE5D889D7 /* JAUIKit-umbrella.h */,
+				7D2B0FA831C478648C01664AFEDE2637 /* JAUIKit.debug.xcconfig */,
+				1314631EC21EDB1573C22F9B54F5FA90 /* JAUIKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JAUIKit";
+			sourceTree = "<group>";
+		};
+		43E63211903613ED61503ADC01E5CCBC /* JAUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1B31C6C3B8795192EBC478466175206B /* ReplaceMe.swift */,
+				81CF65EA568F35C0A3D1FEC1BA731A0B /* Pod */,
+				365A179D11A4779885A9E31628A041B2 /* Support Files */,
+			);
+			name = JAUIKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4824F91A4BE0380E4301E3F7A7E28F4C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C718B5A7DDAFE1BC74DEAABA6E97E1E0 /* Pods-JAUIKit_Example */,
+				0E426EEE34EA72032074AB06B98F3D8E /* Pods-JAUIKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		81CF65EA568F35C0A3D1FEC1BA731A0B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DD6C5B05E4A6AB00002EE7A5651CEEE9 /* JAUIKit.podspec */,
+				B01E6A1F83F1E9D54BE65D76AE712B95 /* LICENSE */,
+				12B3443D88CC1487A690CBCE9FE4F47C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AE6370905B3D2B613730E577187569A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A952205F1CFFB5380031726D5F79EDFD /* JAUIKit */,
+				A7F6F5760740BACA9A44E0F339ACEBFC /* Pods-JAUIKit_Example */,
+				D70540A5B098720374723DC15B8670D4 /* Pods-JAUIKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C718B5A7DDAFE1BC74DEAABA6E97E1E0 /* Pods-JAUIKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B005C269F6393B4ED49664A39A18A612 /* Pods-JAUIKit_Example.modulemap */,
+				1A528E3D0609C3A5728BD5E5923B870A /* Pods-JAUIKit_Example-acknowledgements.markdown */,
+				C072DB2ED99D809CF69474060ED71D43 /* Pods-JAUIKit_Example-acknowledgements.plist */,
+				1F4C504515839008AC8DD03863260902 /* Pods-JAUIKit_Example-dummy.m */,
+				D52FBB38DB032C3DF97204A34AFFD709 /* Pods-JAUIKit_Example-frameworks.sh */,
+				551AE7DED4524ED5638AF2C9D950358F /* Pods-JAUIKit_Example-Info.plist */,
+				5A195CB22B52FECE084E83CE96D77E9B /* Pods-JAUIKit_Example-umbrella.h */,
+				A5CFFAB399984DA2A6807476C9B9ED2E /* Pods-JAUIKit_Example.debug.xcconfig */,
+				0983149EDD85E87814654AEEF6BFDFBC /* Pods-JAUIKit_Example.release.xcconfig */,
+			);
+			name = "Pods-JAUIKit_Example";
+			path = "Target Support Files/Pods-JAUIKit_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				08A5DBF384D8F87878E3E01078B2DC37 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AE6370905B3D2B613730E577187569A3 /* Products */,
+				4824F91A4BE0380E4301E3F7A7E28F4C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1DFAF7DED0287C915AFD0A90FA55A411 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC70C76C68241F03F6B25CB17F523C7 /* Pods-JAUIKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52063E9BF0CB33156AFF7E395CB9B111 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B93ED689135F81793BA25EF3F279C1 /* Pods-JAUIKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9072F376DB78AF9F5068ADCAB346861 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327A8D68310E282741C49980ED8CE0EB /* JAUIKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		11817013961FA20343E732D7740F870D /* JAUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27C5881070B4C70039B50DCF1314CF6 /* Build configuration list for PBXNativeTarget "JAUIKit" */;
+			buildPhases = (
+				F9072F376DB78AF9F5068ADCAB346861 /* Headers */,
+				E03956975887B04015977F8D4DE3EE94 /* Sources */,
+				80FFE47BFB7E9CF2B1CC5B7997919C0B /* Frameworks */,
+				C63DE2362410882B7236C4EB3BF86606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAUIKit;
+			productName = JAUIKit;
+			productReference = A952205F1CFFB5380031726D5F79EDFD /* JAUIKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		32CC7DCAB8C9CB19FCD74CF8C721ED66 /* Pods-JAUIKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5902132045F915896CD30B85BD3021 /* Build configuration list for PBXNativeTarget "Pods-JAUIKit_Example" */;
+			buildPhases = (
+				1DFAF7DED0287C915AFD0A90FA55A411 /* Headers */,
+				5C6E2B37CBDCA48EBBA54A4E3D441742 /* Sources */,
+				4CCBCFA88FAB7004A921F48C3EA3C4EB /* Frameworks */,
+				39D379B5806F01ED532E7F5A125207F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A78AAAF835A611DBCEBC4E6ED9BAE35C /* PBXTargetDependency */,
+			);
+			name = "Pods-JAUIKit_Example";
+			productName = Pods_JAUIKit_Example;
+			productReference = A7F6F5760740BACA9A44E0F339ACEBFC /* Pods-JAUIKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		B10BAA323B31432E4DFB14CF3C67F724 /* Pods-JAUIKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2689150CB3D85AE46B6E0E6EEAB90509 /* Build configuration list for PBXNativeTarget "Pods-JAUIKit_Tests" */;
+			buildPhases = (
+				52063E9BF0CB33156AFF7E395CB9B111 /* Headers */,
+				BEE50CBB9C124790B629324ACEF1ED72 /* Sources */,
+				F7D892096ECD30D6CC685DBF7B69AD23 /* Frameworks */,
+				5385A6DE583B78337A3D19DD99F0BBAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D4D5684C5ACF9B9DD796A1E1ECC1ED9 /* PBXTargetDependency */,
+			);
+			name = "Pods-JAUIKit_Tests";
+			productName = Pods_JAUIKit_Tests;
+			productReference = D70540A5B098720374723DC15B8670D4 /* Pods-JAUIKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AE6370905B3D2B613730E577187569A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11817013961FA20343E732D7740F870D /* JAUIKit */,
+				32CC7DCAB8C9CB19FCD74CF8C721ED66 /* Pods-JAUIKit_Example */,
+				B10BAA323B31432E4DFB14CF3C67F724 /* Pods-JAUIKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39D379B5806F01ED532E7F5A125207F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5385A6DE583B78337A3D19DD99F0BBAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63DE2362410882B7236C4EB3BF86606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C6E2B37CBDCA48EBBA54A4E3D441742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E035FF052B5010C351CEB033B83B6BF /* Pods-JAUIKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE50CBB9C124790B629324ACEF1ED72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2AE4780989A05B1CDAA022322DBBA7 /* Pods-JAUIKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E03956975887B04015977F8D4DE3EE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBB9AB789DD53575F04542B9BC45C79 /* JAUIKit-dummy.m in Sources */,
+				14195C5073B6452D131A9DD5788DC480 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D4D5684C5ACF9B9DD796A1E1ECC1ED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JAUIKit_Example";
+			target = 32CC7DCAB8C9CB19FCD74CF8C721ED66 /* Pods-JAUIKit_Example */;
+			targetProxy = 0455E9616F72D84B92CBBC7D20F7D4DA /* PBXContainerItemProxy */;
+		};
+		A78AAAF835A611DBCEBC4E6ED9BAE35C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JAUIKit;
+			target = 11817013961FA20343E732D7740F870D /* JAUIKit */;
+			targetProxy = 6CCA4C3FFBC84A63C2FAC72817B06B31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CE703FE3359511698441C94E48D8DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE37DCBD2A920FD614C226F95B693923 /* Pods-JAUIKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAUIKit_Tests/Pods-JAUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAUIKit_Tests/Pods-JAUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21CFAF3A83094CFD9FED03B1519F4CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5CFFAB399984DA2A6807476C9B9ED2E /* Pods-JAUIKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAUIKit_Example/Pods-JAUIKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAUIKit_Example/Pods-JAUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		604C476DC2C0D2901A60D3C77F5847F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D2B0FA831C478648C01664AFEDE2637 /* JAUIKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JAUIKit/JAUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JAUIKit/JAUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JAUIKit/JAUIKit.modulemap";
+				PRODUCT_MODULE_NAME = JAUIKit;
+				PRODUCT_NAME = JAUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8B3C93F1E4BA77A2CA8FBF479F41CBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1314631EC21EDB1573C22F9B54F5FA90 /* JAUIKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JAUIKit/JAUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JAUIKit/JAUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JAUIKit/JAUIKit.modulemap";
+				PRODUCT_MODULE_NAME = JAUIKit;
+				PRODUCT_NAME = JAUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C62415FF3530B05029BA91666401BB21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA57ACCE2CF06D2CBEF0CFCE4AFDB458 /* Pods-JAUIKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAUIKit_Tests/Pods-JAUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAUIKit_Tests/Pods-JAUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8CFAA735DC5C0CBA6D60F71312C5D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0983149EDD85E87814654AEEF6BFDFBC /* Pods-JAUIKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAUIKit_Example/Pods-JAUIKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAUIKit_Example/Pods-JAUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2689150CB3D85AE46B6E0E6EEAB90509 /* Build configuration list for PBXNativeTarget "Pods-JAUIKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CE703FE3359511698441C94E48D8DFC /* Debug */,
+				C62415FF3530B05029BA91666401BB21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5902132045F915896CD30B85BD3021 /* Build configuration list for PBXNativeTarget "Pods-JAUIKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CFAF3A83094CFD9FED03B1519F4CC9 /* Debug */,
+				D8CFAA735DC5C0CBA6D60F71312C5D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27C5881070B4C70039B50DCF1314CF6 /* Build configuration list for PBXNativeTarget "JAUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604C476DC2C0D2901A60D3C77F5847F9 /* Debug */,
+				8B3C93F1E4BA77A2CA8FBF479F41CBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
