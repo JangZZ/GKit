@@ -1,0 +1,22 @@
+{
+  "name": "ZZKit",
+  "version": "0.1.0",
+  "summary": "ZZKit many commons to development ios app",
+  "description": "my journey in iOS development",
+  "homepage": "https://github.com/JangZZ/ZZKit.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JangZZ": "giangnt078@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/JangZZ/ZZKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "ZZKit/**/*.{swift}"
+}

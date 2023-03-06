@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '12.0'
 
 target 'ZZKit_Example' do
   pod 'ZZKit', :path => '../'
