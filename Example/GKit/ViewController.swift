@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GKit
 
 class ViewController: UIViewController {
 
