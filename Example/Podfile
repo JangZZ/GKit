@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'JAUIKit_Example' do
+  pod 'JAUIKit', :path => '../'
+
+  target 'JAUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
