@@ -1,7 +1,7 @@
 PODS:
-  - JAUIKit (1.0.5):
-    - SnapKit (~> 5.6.0)
-  - SnapKit (5.6.0)
+  - JAUIKit (1.0.6):
+    - SnapKit (~> 5.0.0)
+  - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - JAUIKit (from `../`)
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JAUIKit: f5cd6f9df13b5f4aab7ad28cd58993d9c73f1f06
-  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  JAUIKit: c95f8ea2a345483c7492b46469c629c29294e10e
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
 PODFILE CHECKSUM: d7088e4df7ea6b8d8537b1aeb1246ff785aefbc0
 
